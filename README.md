@@ -3,7 +3,9 @@
 ## Overview
 ### Supervised machine learning is utilized in this project to predict credit card risk. This is being done to provide a more efficient loan experience. Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, different techniques were employed to train and evaluate models with unbalanced classes.
 
+
 ## Results
+
 ### Naive Random Oversampling
 ![](Resources/NRO_report.png)
 * Balanced Accuracy Score: 64%
@@ -46,8 +48,13 @@
 
 ### Easy Ensemble ADABoost Classifier
 ![](Resources/Easy_ensemble_report.png)
-* Balanced Accuracy Score: 79%
+* Balanced Accuracy Score: 93%
 * Precision High-Risk: 9%
 * Precision Low-Risk: 100%
 * Recall High-Risk: 92%
 * Recall Low-Risk: 94%
+
+
+## Summary
+
+### There were six supervised machine learning models used in this analysis. Accuracy, precision and recall scores were calculated and will be used to validate each classification model in order to determine which model is most effective. The Easy Ensamble ADABoost Classifier Model is being reccomended for use, as it has a high balanced accuracy, precision and recall scores. 

@@ -5,4 +5,5 @@
 
 ## Results
 ### Naive Random Oversampling
-* Balanced Accuracy Score: 
+![](Resources/NRO_accuracy.png)
+* Balanced Accuracy Score: 64%

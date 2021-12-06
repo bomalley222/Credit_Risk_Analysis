@@ -5,5 +5,11 @@
 
 ## Results
 ### Naive Random Oversampling
-![](Resources/NRO_accuracy.png)
+![](Resources/NRO_report.png)
 * Balanced Accuracy Score: 64%
+* Precision High-Risk: 1%
+* Precision Low-Risk: 100%
+* Recall High-Risk: 66%
+* Recall Low-Risk: 62%
+
+

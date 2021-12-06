@@ -12,4 +12,42 @@
 * Recall High-Risk: 66%
 * Recall Low-Risk: 62%
 
+### SMOTE Oversampling
+![](Resources/SMOTE_report.png)
+* Balanced Accuracy Score: 65%
+* Precision High-Risk: 1%
+* Precision Low-Risk: 100%
+* Recall High-Risk: 61%
+* Recall Low-Risk: 69%
 
+### Cluster Centroids Undersampling
+![](Resources/Undersampling_report.png)
+* Balanced Accuracy Score: 54%
+* Precision High-Risk: 1%
+* Precision Low-Risk: 100%
+* Recall High-Risk: 69%
+* Recall Low-Risk: 40%
+
+### SMOTEEN Combination (Over and Under) Sampling
+![](Resources/Combination_report.png)
+* Balanced Accuracy Score: 66%
+* Precision High-Risk: 1%
+* Precision Low-Risk: 100%
+* Recall High-Risk: 75%
+* Recall Low-Risk: 56%
+
+### Balanced Random Forest Classifier
+![](Resources/BRFO_report.png)
+* Balanced Accuracy Score: 79%
+* Precision High-Risk: 3%
+* Precision Low-Risk: 100%
+* Recall High-Risk: 70%
+* Recall Low-Risk: 87%
+
+### Easy Ensemble ADABoost Classifier
+![](Resources/Easy_ensemble_report.png)
+* Balanced Accuracy Score: 79%
+* Precision High-Risk: 9%
+* Precision Low-Risk: 100%
+* Recall High-Risk: 92%
+* Recall Low-Risk: 94%
